@@ -1,5 +1,5 @@
 # Goal
-We want to use [sthalles/SimCLR](https://github.com/sthalles/SimCLR/)  to train on our own dataset from Panda challange. The main problem is to load our dataset in this file: data_aug/datawrapper.py instead of SIL10.
+We want to use [sthalles/SimCLR](https://github.com/sthalles/SimCLR/)  to train on our own dataset from Panda challange. The main problem is to load our dataset in this file: data_aug/datawrapper.py instead of SIL10 in the original repository.
 
 ## Dataset
 The original dataset is from [Panda Challenge on Kaggle](https://www.kaggle.com/c/prostate-cancer-grade-assessment/data). There are ~10000 WSI from two providers: Redboud and Karolinska. The are labeled as following:
