@@ -27,7 +27,7 @@ Karolinska: Regions are labelled. Valid values are:
 2: cancerous tissue (stroma and epithelium combined)
 
 
-Since the Redboud has the detailed labels (grade from 1), we would like to pretrain SimCLR on the WSI from Reboud. 
+Since the Redboud has the detailed labels (grade from 0 to 5), we would like to pretrain SimCLR on the WSI from Reboud. 
 
 # Patches
 Ali has cut the Redboud WSI into 512x512 jpg images and filtered out the background patches. They are saved under the subfolders. The name of the subfolder is the WSI name. 
