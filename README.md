@@ -47,4 +47,4 @@ sthalles/SimCLR/data_aug/datawrapper.py is where the original dataset is loaded.
 **With this modification, we can now use the SimCLR to train on our dataset.**
 
 ### data_loader.ipynb
-Original I am creating the my own class of the dataset according to this post: [WRITING CUSTOM DATASETS, DATALOADERS AND TRANSFORMS](https://pytorch.org/tutorials/beginner/data_loading_tutorial.html). However, it requires me to write my own torchvision.tranform functions due to the data format of the image while defining the dataset. 
+Originally I am creating the my own class of the dataset according to this post: [WRITING CUSTOM DATASETS, DATALOADERS AND TRANSFORMS](https://pytorch.org/tutorials/beginner/data_loading_tutorial.html). However, it requires me to write my own torchvision.tranform functions due to the data format of the image while defining the dataset. 
